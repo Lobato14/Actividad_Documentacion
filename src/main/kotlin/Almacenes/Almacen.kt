@@ -1,5 +1,22 @@
 package Almacenes
 
+/**
+ * ## Creación de la clase [Almacen]
+ *
+ * Creamos una serie de estanterías en donde se almacenan los productos con una [MutableList].
+ *
+ * Se crea la función [mostrarInformacion] que muestra la información del producto según su estantería que irá con una clave para que se diferencien unos con otros.
+ *
+ * Se crea la función [agregarProductoPrimera] para agregar un producto a una estantería.
+ *
+ * Se crea la función [precioPorEstante] para calcular el precio de cada estante según los productos que se encuentren dentro.
+ *
+ * Se crea la funcion [precioTotalEstante] para calcular el precio total de todos los estantes.
+ *
+ * @param Estanterias es un mapa para poder asignarle a cada uno la clave de la estantería para que se puedan diferenciar.
+ *
+ * @author Rubén Celis Lobato
+ */
 class Almacen(){
 
     val estanteria1:MutableList<Bebida> = mutableListOf()
