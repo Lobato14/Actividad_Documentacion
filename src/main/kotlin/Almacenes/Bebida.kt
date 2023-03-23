@@ -1,5 +1,27 @@
 package Almacenes
 
+/**
+ * ## Creación de la clase [Bebida]
+ *
+ * Creamos la funcion [Calcular] que devolverá la cantidad del producto por su precio.
+ *
+ * Creamos la función [toString] para que nos devuelva los parámetros del productos.
+ *
+ * Se crean getters y setters en sus parámetros.
+ *
+ * Creamos una clase llamada [Bebida] que contiene los siguientes parametros:
+ *
+ * La clase [Bebida] será abstracta.
+ *
+ * @param identificador identificador del producto.
+ * @param litros cantidad de litros que contiene el producto.
+ * @param precio precio del producto.
+ * @param marca marca del producto.
+ *
+ * @author Rubén Celis Lobato
+ *
+ */
+
 abstract class Bebida(identificador:Int, litros:Double, precio:Double, marca:String) {
 
     var identificador = identificador
