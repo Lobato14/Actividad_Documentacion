@@ -5,7 +5,7 @@ package Almacenes
  *
  * La clase [Agua_mineral] hereada de la clase [Bebida] creando un constructor incializacialilzando la variable [manantialOrigen].
  *
- * Creamos la funcion [Calcular] donde devuelve la cantidad del producto por el precio.
+ * Cogemos la funcion [Calcular] que proviene de [Bebida] donde devuelve la cantidad del producto por el precio.
  *
  * @param manantialorigen indica el origen del manantial en donde proviene el agua.
  *
