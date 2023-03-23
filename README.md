@@ -18,8 +18,7 @@
 <br>
 
 -  Creamos un constructor para `Bebida_Azucarada` que hereda de `Bebida`.
-
-- <br><br>
+<br><br>
 
 - Cogemos la funcion `Calcular` que proviene de `Bebida` que si tiene alguna promocion se multiplique la cantiadad por la promoción, en caso contrario que devuelva la cantidad.
 <br><br>
